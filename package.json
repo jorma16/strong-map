@@ -16,7 +16,10 @@
     "xo": "0.24.0"
   },
   "xo": {
-    "globals": ["test", "expect"],
+    "globals": [
+      "test",
+      "expect"
+    ],
     "space": true,
     "rules": {
       "ava/no-skip-test": [
