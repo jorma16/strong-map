@@ -1,0 +1,51 @@
+{
+  "name": "strong-map",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "xo",
+    "test": "xo && jest",
+    "test:coverage": "npm run test -- --coverage"
+  },
+  "keywords": [],
+  "author": "Jorma",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "24.8.0",
+    "xo": "0.24.0"
+  },
+  "xo": {
+    "globals": ["test", "expect"],
+    "space": true,
+    "rules": {
+      "ava/no-skip-test": [
+        "off"
+      ],
+      "capitalized-comments": [
+        "off"
+      ],
+      "no-unused-vars": [
+        "error",
+        {
+          "ignoreRestSiblings": true,
+          "args": "none"
+        }
+      ],
+      "no-warning-comments": [
+        0
+      ],
+      "arrow-parens": [
+        "error",
+        "always"
+      ],
+      "object-shorthand": [
+        "off"
+      ],
+      "object-curly-spacing": [
+        "error",
+        "always"
+      ]
+    }
+  }
+}
