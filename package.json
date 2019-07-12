@@ -6,12 +6,14 @@
   "scripts": {
     "lint": "xo",
     "test": "xo && jest",
-    "test:coverage": "npm run test -- --coverage"
+    "test:coverage": "npm run test -- --coverage",
+    "coveralls": "jest --coverage && cat ./coverage/lcov.info | coveralls"
   },
   "keywords": [],
   "author": "Jorma",
   "license": "ISC",
   "devDependencies": {
+    "coveralls": "3.0.4",
     "jest": "24.8.0",
     "xo": "0.24.0"
   },
