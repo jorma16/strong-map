@@ -1,7 +1,12 @@
 # Strong Map
+## Badges
+[![License](https://img.shields.io/npm/l/strong-map.svg)](https://img.shields.io/npm/l/strong-map.svg)
 [![Build Status](https://travis-ci.org/jorma16/strong-map.svg?branch=master)](https://travis-ci.org/jorma16/strong-map)
 [![Coverage Status](https://coveralls.io/repos/github/jorma16/strong-map/badge.svg?branch=master)](https://coveralls.io/github/jorma16/strong-map?branch=master)
-
+[![Github Issues](https://img.shields.io/github/issues-raw/jorma16/strong-map.svg)](https://img.shields.io/github/issues-raw/jorma16/strong-map.svg)
+[![Version](https://img.shields.io/npm/v/strong-map.svg)](https://img.shields.io/npm/v/strong-map.svg)
+[![Node Version](https://img.shields.io/node/v/strong-map.svg)](https://img.shields.io/node/v/strong-map.svg)
+[![Last Commit](https://img.shields.io/github/last-commit/jorma16/strong-map.svg)](https://img.shields.io/github/last-commit/jorma16/strong-map.svg)
 ## About
 This library is made to extend the functionality of Javascript's [Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map) to solve common problems.
 

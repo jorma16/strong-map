@@ -1,20 +1,29 @@
 {
   "name": "strong-map",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": ">=10.15.3"
+  },
   "scripts": {
     "lint": "xo",
     "test": "xo && jest",
     "test:coverage": "npm run test -- --coverage",
     "coveralls": "jest --coverage && cat ./coverage/lcov.info | coveralls"
   },
-  "keywords": [],
+  "keywords": [
+    "Map",
+    "Extend",
+    "Object",
+    "Key"
+  ],
   "author": "Jorma",
   "license": "ISC",
   "devDependencies": {
     "coveralls": "3.0.4",
     "jest": "24.8.0",
+    "semver": "6.2.0",
     "xo": "0.24.0"
   },
   "xo": {
